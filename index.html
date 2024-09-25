@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/94c0a930ff.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+
+    <nav>
+        <h2 class="sneakers">Sneakers</h2>
+        <ul>
+            <li>Collections</li>
+            <li>Men</li>
+            <li>Women</li>
+            <li>About Us</li>
+            <li>Contact</li>
+        </ul>
+        <div class="cartprofile">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <p class="cartvalue" id="cartno"></p>
+            <img class="profileimg" src="profile.png" alt="">
+        </div>
+    </nav>
+
+    <div class="body">
+        <div class="pics">
+            <div id="mpic" class="mainpic">
+
+            </div>
+            <div class="bpic">
+                <button id="fpic" class="pic1"></button>
+                <button id="spic" class="pic2"></button>
+                <button id="tpic" class="pic3"></button>
+                <button id="ftpic" class="pic4"></button>
+            </div>
+        </div>
+
+        <div class="side">
+            <small>SNEAKER COMPANY</small>
+            <h1 class="words">Fall Limited Edition Sneakers</h1>
+            <p class="longwords">These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.</p>
+            <div class="price">
+            <h3 id="mainprice">$125.00</h3>
+            <button class="coupon">50%</button>
+            </div>
+            <p id="oldprice" class="pprice">$250.00</p>
+            <div class="actionbutton">
+                <button onclick="decrease()">-</button>
+                <p id="number">0</p>
+                <button onclick="increase()">+</button>
+                <button onclick="addtocart()" class="add2cart" <i class="fa-solid fa-cart-shopping"></i> >Add to Cart</button>
+
+                <p id="greeting"></p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="cart.js"></script>
+</body>
+</html>

@@ -1,0 +1,174 @@
+*{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Nav Section */
+nav{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 0.5px solid gray;
+    margin-bottom: 90px;
+    padding-top: 30px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.cartprofile{
+    display: flex;
+    position: relative;
+}
+.fa-cart-shopping{
+    font-size:20px;
+    padding-top: 20px;
+    gap: 20px;
+}
+.sneakers{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 50px;
+    padding-top: 8px;
+    font-style: italic;
+}
+li{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+}
+.cartvalue{
+    font-size: 20px;
+    position: absolute;
+    margin-right: 20px;
+}
+.profileimg{
+    border-radius: 50%;
+    width: 100px;
+    height: 60px;
+    padding-top: 5px;
+}
+/* End of Nav Section */
+
+/* Body Section */
+.body{
+    display: flex;
+    width: 45%;
+    margin-left: 60px;
+    gap: 200px;
+}
+.mainpic{
+    width: 350px;
+    height: 370px;
+    background-image: url(background2.jpg);
+    border-radius: 10px;
+    margin-left: 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bpic{
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+    margin-left: 85px;
+}
+.pic1{
+    width: 70px;
+    height: 70px;
+    background-image: url(shoe1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.pic2{
+    width: 70px;
+    height: 70px;
+    background-image: url(shoe2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.pic3{
+    width: 70px;
+    height: 70px;
+    background-image: url(shoe3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.pic4{
+    width: 70px;
+    height: 70px;
+    background-image: url(shoe4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+small{
+    color: gray;
+    font-size: 15px;
+}
+.words{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 20px;
+    padding-top: 25px;
+}
+.longwords{
+    color: gray;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.price{
+    display: flex;
+    font-size: 25px;
+    border: 3px solid orange;
+    border-radius: 5px;
+    padding: 2px;
+    width: 200px;
+    margin-left: 5px;
+}
+.coupon{
+    border-radius: 5px;
+    background-color: rgb(44,44,44);
+    color: white;
+    border: transparent;
+    padding: 4px;
+}
+.pprice{
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    padding-left: 40px;
+    color: red;
+    text-decoration: 2px line-through;
+}
+.actionbutton{
+    display: flex;
+}
+button{
+    width: 45px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(255, 225, 200);
+    border: none;
+    color: rgb(247, 148, 0);
+    font-size: 20px;
+    padding: 5px;
+}
+p{
+    padding-top: 5px;
+}
+.add2cart{
+    width: fit-content;
+    background-color: rgb(231, 134, 55);
+    height: fit-content;
+    padding: 2.5px 13px;
+    margin-left: 20px;
+    color: rgb(245, 9, 9);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
